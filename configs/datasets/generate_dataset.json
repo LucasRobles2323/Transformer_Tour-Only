@@ -1,0 +1,35 @@
+{
+  "file_name": "data90_n200_fi5_wc7_bounded_strongly_corr.pt",
+  "n_new_samples": 4,
+  "solver_time_budget_s": 60.0,
+  "solver_restart_mode": "full",
+  "solver_no_improve_patience": 3,
+  "solver_verbose_sections": null,
+  "solver_verify_integrity": false,
+  "log_fn": "print",
+  "verbose": true,
+  "verbose_storage": true,
+  "verbose_format": false,
+  "seed": null,
+  "inst_params": {
+    "n_cities": 200,
+    "item_factor": 5,
+    "weight_category": 7,
+    "corr_type_value": "bounded_strongly_corr",
+    
+    "compute_R_mode": "fast",
+    "compute_R_eps": 0.02,
+    "compute_R_tour_mode": "ortools",
+    "compute_R_tsp_time_limit_s": 2.0,
+    "compute_R_2opt_iters": 2000,
+    "compute_R_knapsack_mode": "scip",
+    "compute_R_knapsack_time_limit_s": 2.0,
+    "compute_R_knapsack_gap": 0.05,
+    "compute_R_knapsack_hide_output": true,
+
+    "coord_range": [0, 100000, 0, 100000],
+    "min_speed": 0.1,
+    "max_speed": 1.0,
+    "verbose": false
+  }
+}

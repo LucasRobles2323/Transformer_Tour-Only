@@ -1,0 +1,45 @@
+{
+  "checkpoint_file": "model29_coupling_iters1_d_ff1024_d_model256_dropout0p05_edge_feature_modedistance_v1_n_heads8_n_layers6_node_feature_setttp_v1_sink_tau0p14_sinkhorn_iter60.pt",
+  "run_tag": "11",
+  "n_instances": 3,
+  "seed": null,
+  "solver_time_budget_s": 60.0,
+  "eval_time_budget_s": 30.0,
+  "eval_n_restarts": 3,
+  "decoder_sources": [
+    "logits",
+    "probs"
+  ],
+  "mask_mode": null,
+  "knn_k": null,
+  "allow_self": null,
+  "sym": null,
+  "compute_dist_matrix": null,
+  "device": null,
+  "verbose": true,
+  "log_fn": "print",
+  "inst_params": {
+    "n_cities": 200,
+    "item_factor": 5,
+    "weight_category": 7,
+    "corr_type_value": "bounded_strongly_corr",
+    "compute_R_mode": "fast",
+    "compute_R_eps": 0.02,
+    "compute_R_tour_mode": "ortools",
+    "compute_R_tsp_time_limit_s": 2.0,
+    "compute_R_2opt_iters": 2000,
+    "compute_R_knapsack_mode": "scip",
+    "compute_R_knapsack_time_limit_s": 2.0,
+    "compute_R_knapsack_gap": 0.05,
+    "compute_R_knapsack_hide_output": true,
+    "coord_range": [
+      0,
+      100000,
+      0,
+      100000
+    ],
+    "min_speed": 0.1,
+    "max_speed": 1.0,
+    "verbose": false
+  }
+}

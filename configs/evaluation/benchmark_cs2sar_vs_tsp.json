@@ -1,0 +1,12 @@
+{
+  "iterations": 3,
+  "instances_fnames_to_evaluate": [
+    "a280_n1395_bounded-strongly-corr_01.ttp",
+    "a280_n1395_bounded-strongly-corr_10.ttp"
+  ],
+  "shuffle": false,
+  "time_cs2sar": 60.0,
+  "time_tsp": 30.0,
+  "verbose_sections": null,
+  "log_fn": "print"
+}

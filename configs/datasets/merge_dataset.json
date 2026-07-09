@@ -1,0 +1,21 @@
+{
+  "input_file_names": [
+    "data30_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data31_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data32_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data33_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data34_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data35_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data36_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data37_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data38_n50_fi3_wc6_bounded_strongly_corr.pt",
+    "data39_n50_fi3_wc6_bounded_strongly_corr.pt"
+  ],
+  "output_file_name": "data92_n50_fi3_wc6_bounded_strongly_corr.pt",
+  "overwrite": false,
+  "keep_names": true,
+  "verbose": true,
+  "verbose_storage": true,
+  "map_location": "cpu",
+  "log_fn": "print"
+}

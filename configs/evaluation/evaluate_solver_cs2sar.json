@@ -1,0 +1,13 @@
+{
+  "iterations": 4,
+  "instances_fnames_to_evaluate": [
+    "a280_n1395_bounded-strongly-corr_01.ttp",
+    "a280_n1395_bounded-strongly-corr_10.ttp",
+    "a280_n1395_bounded-strongly-corr_03.ttp",
+    "a280_n1395_bounded-strongly-corr_06.ttp"
+  ],
+  "time_solutions": [60],
+  "shuffle": true,
+  "verbose_sections": null,
+  "log_fn": "print"
+}
