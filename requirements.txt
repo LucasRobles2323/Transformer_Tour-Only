@@ -1,0 +1,10 @@
+lk-heuristic==0.0.4
+matplotlib==3.10.8
+optuna==4.8.0
+ortools==9.15.6755
+pandas==3.0.1
+plotly==5.5.0
+scikit-learn==1.8.0
+scipy==1.17.0
+tqdm==4.67.1
+pyscipopt==6.1.0
