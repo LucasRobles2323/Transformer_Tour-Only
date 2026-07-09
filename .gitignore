@@ -1,0 +1,38 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.test/
+
+# Archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Archivos del sistema
+data/instances/*
+data/train_data/*
+data/optuna/*
+data/trained_history_runs/*
+data/trained_models_params/*
+data/trained_models/*
+data/training_plots/*
+data/results_compare/*
+results/*
+
+# Scripts extras usados
+generate_tree.py
+join_packages.py
+# Carpetas auxiliares
+packages_joined/
+# Readme con instrucciones y comandos para servidor Slurm de la Universidad
+README_OCEAN.md
+# Ignorar todos los archivos .zip
+*.zip
+*.tar.gz
+
+# Configuración del editor
+.vscode/
+.idea/
